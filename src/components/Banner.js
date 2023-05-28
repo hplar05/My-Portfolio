@@ -7,15 +7,15 @@ import { fadeIn } from '../variants';
 
 const Banner = () => {
   return (
-    <section className='min-h-[120vh] lg:min-h-[78vh] flex items-center' id='home'>
+    <section className='min-h-[100vh] lg:min-h-[78vh] flex items-center' id='home'>
       <div className="container mx-auto">
         <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
           {/* Your text */}
           <div className='flex-1 text-center font-secondary lg:text-left'>
-            <h1 className='text-[70px] font-bold leading-[0.8] lg:text-[100px]'>
+            <h1 className='text-[60px] font-bold leading-[0.8] lg:text-[80px]'>
               Ralph <span>Saladino</span>
             </h1>
-            <div className='mb-6 text-[40px] lg:text-[50px] font-secondary font-semibold uppercase leading-[1]'>
+            <div className='mb-6 text-[30px] lg:text-[40px] font-secondary font-semibold uppercase leading-[1]'>
               <span className='text-white mr-4'>I am a</span>
               <TypeAnimation
                 sequence={[
