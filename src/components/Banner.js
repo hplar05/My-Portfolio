@@ -101,10 +101,6 @@ const Banner = () => {
             variants={fadeIn('down', 0.3)}
             initial="hidden"
             whileInView={'show'}
-            viewport={{
-              once: false, amount
-                : 0.7
-            }}
             className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[420px]'>
             <img
               src={Image}
