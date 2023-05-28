@@ -20,7 +20,7 @@ const Banner = () => {
                 once: false, amount
                   : 0.7
               }}
-              className='text-[60px] font-bold leading-[0.8] lg:text-[90px]'>
+              className='text-[55px] font-bold leading-[0.8] lg:text-[90px]'>
               Ralph <span>Saladino</span>
             </motion.h1>
             <motion.div
