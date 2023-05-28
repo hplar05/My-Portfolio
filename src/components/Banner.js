@@ -57,7 +57,7 @@ const Banner = () => {
               </div>
           </div>
           {/* Modified image */}
-          <div className='items-center flex-1 mx-auto'>
+          <div className='mx-auto lg:mr-14'>
             <img
               src={Image}
               alt=''
