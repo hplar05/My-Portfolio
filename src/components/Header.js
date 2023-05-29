@@ -9,7 +9,7 @@ const Header = () => {
   <a href="#">
     <img src={Logo} alt="Logo" style={{ height: '2rem' }} /> {/* Adjust the height using inline styles */}
   </a>
-  {/* <button className='btn btn-sm cursor-pointer'>More about me</button> */}
+
 </div>
 
       </div>
