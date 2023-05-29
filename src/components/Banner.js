@@ -59,7 +59,7 @@ const Banner = () => {
                   : 0.7
               }}
               className='mb-8 max-w-lg mx-auto lg:mx-0'>
-              Lorem ipsum dolor sit amet. Id sunt laborum sed rerum quia vel voluptatem consequatur ut accusamus cupiditate vel voluptatem possimus.
+              I am a passionate web development student, constantly seeking to expand my knowledge in this field. I find the dynamic nature of web development fascinating and enjoy discovering new possibilities.
             </motion.p>
             <motion.div
               variants={fadeIn('up', 0.3)}
@@ -105,7 +105,7 @@ const Banner = () => {
             <img
               src={Image}
               alt=''
-              className='rounded-full h-90' // Replace 'h-50' with the desired height class
+              className='rounded-full ' // Replace 'h-50' with the desired height class
               width='350px' // Replace '600px' with the desired width value
             />
           </motion.div>
