@@ -5,12 +5,13 @@ const Header = () => {
   return (
     <header className="py-2">
       <div className="container mx-auto">
-        <div className="flex justify-between items-center ">
-          <a href="#">
-            <img src={Logo} alt="Logo" className="w-28" />
-          </a>
-          <button className='btn btn-sm cursor-pointer'>More about me</button>
-        </div>
+      <div className="flex justify-between items-center min-h-[7vh] lg:min-h-[7vh]">
+  <a href="#">
+    <img src={Logo} alt="Logo" style={{ height: '2rem' }} /> {/* Adjust the height using inline styles */}
+  </a>
+  {/* <button className='btn btn-sm cursor-pointer'>More about me</button> */}
+</div>
+
       </div>
     </header>
   );

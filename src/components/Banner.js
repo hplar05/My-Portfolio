@@ -105,8 +105,8 @@ const Banner = () => {
             <img
               src={Image}
               alt=''
-              className='rounded-3xl h-90' // Replace 'h-50' with the desired height class
-              width='400px' // Replace '600px' with the desired width value
+              className='rounded-full h-90' // Replace 'h-50' with the desired height class
+              width='350px' // Replace '600px' with the desired width value
             />
           </motion.div>
 
