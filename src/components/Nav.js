@@ -16,7 +16,7 @@ const Nav = () => {
             smooth={true}
             spy={true}
             offset={-200}
-            className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+            className='cursor-pointer w-[50px] h-[50px] flex items-center justify-center'>
             <BiHomeAlt2 />
           </Link>
 
@@ -24,7 +24,7 @@ const Nav = () => {
             activeClass='active'
             smooth={true}
             spy={true}
-            className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+            className='cursor-pointer w-[50px] h-[50px] flex items-center justify-center'>
             <BiUser />
           </Link>
 
@@ -32,7 +32,7 @@ const Nav = () => {
             activeClass='active'
             smooth={true}
             spy={true}
-            className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+            className='cursor-pointer w-[50px] h-[50px] flex items-center justify-center'>
             <BiBriefcase />
           </Link>
 
@@ -40,7 +40,7 @@ const Nav = () => {
             activeClass='active'
             smooth={true}
             spy={true}
-            className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+            className='cursor-pointer w-[50px] h-[50px] flex items-center justify-center'>
             <BiPhoneCall />
           </Link>
 
