@@ -18,7 +18,7 @@ const Work = () => {
               once: false, amount
                 : 0.3
             }}
-        className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
+        className='flex-1 flex flex-col gap-y-20 mb-10 lg:mb-0'>
           <div>
             <h2 className='h2 leading-tight text-accent'>
               My Latest <br />
@@ -43,9 +43,9 @@ const Work = () => {
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
               <span className='text-3xl text-white'>THE GYM STREET COACH</span>
             </div>
-
           </div>
         </motion.div>
+
         <motion.div
               variants={fadeIn('left', 0.5)}
               initial="hidden"
@@ -54,7 +54,7 @@ const Work = () => {
                 once: false, amount
                   : 0.3
               }}
-         className='flex-1 flex flex-col gap-y-10'>
+         className='flex-1 flex flex-col gap-y-5'>
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl cursor-pointer'>
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
 
