@@ -7,7 +7,7 @@ import { fadeIn } from '../variants';
 
 const Banner = () => {
   return (
-    <section className='min-h-[70vh] lg:min-h-[78vh] flex items-center' id='home'>
+    <section className='min-h-[100vh] lg:min-h-[100vh] flex items-center' id='home'>
       <div className="container mx-auto">
         <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
           {/* Your text */}
@@ -20,7 +20,7 @@ const Banner = () => {
                 once: false, amount
                   : 0.7
               }}
-              className='text-[55px] font-bold leading-[0.8] lg:text-[90px]'>
+              className='text-[57px] font-bold leading-[0.8] lg:text-[100px]'>
               Ralph <span>Saladino</span>
             </motion.h1>
             <motion.div
@@ -31,7 +31,7 @@ const Banner = () => {
                 once: false, amount
                   : 0.7
               }}
-              className='mb-6 text-[30px] lg:text-[40px] font-secondary font-semibold uppercase leading-[1]'>
+              className='mb-6 text-[33px] lg:text-[50px] font-secondary font-semibold uppercase leading-[1]'>
               <span className='text-white mr-4'>I am a</span>
               <TypeAnimation
                 sequence={[
@@ -58,7 +58,7 @@ const Banner = () => {
                 once: false, amount
                   : 0.7
               }}
-              className='mb-8 max-w-lg mx-auto lg:mx-0'>
+              className='mb-8 max-w-lg mx-auto lg:mx-0 '>
               I am a passionate web development student, constantly seeking to expand my knowledge in this field. I find the dynamic nature of web development fascinating and enjoy discovering new possibilities.
             </motion.p>
             <motion.div
