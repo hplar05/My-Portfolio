@@ -10,7 +10,7 @@ const Work = () => {
   return <section className='section' id='work'>
     <div className="container mx-auto">
       <div className='flex flex-col lg:flex-row gap-x-10 '>
-        <motion.div 
+        <div 
             variants={fadeIn('right', 0.5)}
             initial="hidden"
             whileInView={'show'}
@@ -44,9 +44,9 @@ const Work = () => {
               <span className='text-3xl text-white'>THE GYM STREET COACH</span>
             </div>
           </div>
-        </motion.div>
+        </div>
 
-        <motion.div
+        <div
               variants={fadeIn('left', 0.5)}
               initial="hidden"
               whileInView={'show'}
@@ -85,7 +85,7 @@ const Work = () => {
             </div>
 
           </div>
-        </motion.div>
+        </div>
       </div>
     </div>
   </section>;

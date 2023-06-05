@@ -7,7 +7,7 @@ import { fadeIn } from '../variants';
 
 const Banner = () => {
   return (
-    <section className='min-h-[80vh] lg:min-h-[80vh] flex items-center' id='home'>
+    <section className='min-h-[90vh] lg:min-h-[90vh] flex items-center' id='home'>
       <div className="container mx-auto">
         <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
           {/* Your text */}
