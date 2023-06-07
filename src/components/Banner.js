@@ -101,12 +101,12 @@ const Banner = () => {
             variants={fadeIn('down', 0.3)}
             initial="hidden"
             whileInView={'show'}
-            className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[420px]'>
+            className='hidden lg:flex  lg:max-w-[500px] lg:max-h-[600px]'>
             <img
               src={Image}
               alt=''
-              className='rounded-full ' // Replace 'h-50' with the desired height class
-              width='350px' // Replace '600px' with the desired width value
+              className='' 
+              width='500px' 
             />
           </motion.div>
 
