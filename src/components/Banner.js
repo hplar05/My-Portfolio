@@ -7,7 +7,7 @@ import { fadeIn } from '../variants';
 
 const Banner = () => {
   return (
-    <section className='min-h-[90vh] lg:min-h-[90vh] flex items-center' id='home'>
+    <section className='min-h-[90vh] lg:min-h-[87vh] flex items-center' id='home'>
       <div className="container mx-auto">
         <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
           {/* Your text */}
@@ -35,9 +35,9 @@ const Banner = () => {
               <span className='text-black mr-4'>I am a</span>
               <TypeAnimation
                 sequence={[
-                  'Mobile Dev',
+                  'Web Developer',
                   2000,
-                  'Web Dev',
+                  'Android Dev',
                   2000,
                   'Aspiring Student',
                   2000,
@@ -59,7 +59,7 @@ const Banner = () => {
                   : 0.7
               }}
               className='mb-8 max-w-lg mx-auto lg:mx-0 text-black'>
-              I am a passionate web development student, constantly seeking to expand my knowledge in this field. I find the dynamic nature of web development fascinating and enjoy discovering new possibilities.
+              I am a passionate BSIT student, constantly seeking to expand my knowledge in this field. I find the dynamic nature of mobile and web development  fascinating and enjoy discovering new possibilities.
             </motion.p>
             <motion.div
               variants={fadeIn('up', 0.3)}

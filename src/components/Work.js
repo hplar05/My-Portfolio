@@ -25,7 +25,7 @@ const Work = () => {
               Work.
             </h2>
             <p className='max-w-sm mb-5 text-black'>
-            I have immersed myself in web and mobile app development, working on various projects to enhance my skills and expertise. Here's a brief overview of my notable works in creating web and mobile apps.
+            Here's a brief overview of my notable works in creating web and mobile apps.
             </p>
             <a href="https://github.com/hplar05/">
               <button className='btn btn-sm'>View all project</button> </a>

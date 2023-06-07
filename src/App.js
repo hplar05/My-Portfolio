@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ClimbingBoxLoader } from 'react-spinners/';
+import { PacmanLoader } from 'react-spinners/';
 // components
 import Banner from './components/Banner';
 import Header from './components/Header';
@@ -21,10 +21,10 @@ const App = () => {
       {loading ? (
         // Loading screen
         <div className='flex items-center justify-center h-screen'>
-          <ClimbingBoxLoader
+          <PacmanLoader
             color='#FF8400' // Set the desired color
             loading={loading}
-            size={30}
+            size={60}
             aria-label='Loading Spinner'
             data-testid='loader'
           />
