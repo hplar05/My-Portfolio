@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { ClimbingBoxLoader } from 'react-spinners/';
 // components
 import Banner from './components/Banner';
 import Header from './components/Header';
@@ -7,14 +8,38 @@ import Work from './components/Work';
 import Contact from './components/Contact';
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 5000);
+  }, []);
+
   return (
     <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
-      <Header />
-      <Banner />
-      <Nav />
-      <Work />
-      <Contact />
-      <div className='h-[2000px]'></div>
+      {loading ? (
+        // Loading screen
+        <div className='flex items-center justify-center h-screen'>
+          <ClimbingBoxLoader
+            color='#FF8400' // Set the desired color
+            loading={loading}
+            size={30}
+            aria-label='Loading Spinner'
+            data-testid='loader'
+          />
+        </div>
+      ) : (
+        // Content after loading
+        <>
+          <Header />
+          <Banner />
+          <Nav />
+          <Work />
+          <Contact />
+          <div className='h-[2000px]'></div>
+        </>
+      )}
     </div>
   );
 };

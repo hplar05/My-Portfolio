@@ -31,7 +31,7 @@ const Work = () => {
               <button className='btn btn-sm'>View all project</button> </a>
           </div>
 
-          <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl cursor-pointer'>
+          <div className='group relative overflow-hidden border-2 border-black/60 rounded-xl cursor-pointer'>
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
 
             <img className='group-hover:scale-125 transition-all duration-500' src={Img1} alt="" />
@@ -55,7 +55,7 @@ const Work = () => {
               : 0.3
           }}
           className='flex-1 flex flex-col gap-y-5'>
-          <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl cursor-pointer'>
+          <div className='group relative overflow-hidden border-2 border-black/60 rounded-xl cursor-pointer'>
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
 
             <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt="" />
@@ -70,7 +70,7 @@ const Work = () => {
             </div>
 
           </div>
-          <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl cursor-pointer'>
+          <div className='group relative overflow-hidden border-2 border-black/60 rounded-xl cursor-pointer'>
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
 
             <img className='group-hover:scale-125 transition-all duration-500' src={Img3} alt="" />
