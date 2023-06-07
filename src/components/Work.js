@@ -61,11 +61,11 @@ const Work = () => {
             <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt="" />
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
               <span className=''>
-                Html, Css, and Javascript Project
+                React Js and Tailwind CSS
               </span>
             </div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-accent'>SEABEAWARDS</span>
+              <span className='text-3xl text-accent'>PORTFOLIO PROJECT</span>
 
             </div>
 
@@ -80,7 +80,7 @@ const Work = () => {
               </span>
             </div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-accent'>PPSLAWARDS</span>
+              <span className='text-3xl text-accent'>SEABEAWARDS</span>
 
             </div>
 
