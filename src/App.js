@@ -24,7 +24,7 @@ const App = () => {
           <PacmanLoader
             color='#FF8400' // Set the desired color
             loading={loading}
-            size={80}
+            size={50}
             aria-label='Loading Spinner'
             data-testid='loader'
           />
