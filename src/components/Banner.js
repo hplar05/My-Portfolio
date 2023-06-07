@@ -20,7 +20,7 @@ const Banner = () => {
                 once: false, amount
                   : 0.7
               }}
-              className='text-[57px] font-bold leading-[0.8] lg:text-[100px]'>
+              className='text-[57px] font-bold leading-[0.8] lg:text-[100px] text-black'>
               Ralph <span>Saladino</span>
             </motion.h1>
             <motion.div
@@ -32,7 +32,7 @@ const Banner = () => {
                   : 0.7
               }}
               className='mb-6 text-[33px] lg:text-[50px] font-secondary font-semibold uppercase leading-[1]'>
-              <span className='text-white mr-4'>I am a</span>
+              <span className='text-black mr-4'>I am a</span>
               <TypeAnimation
                 sequence={[
                   'Mobile Dev',
@@ -58,7 +58,7 @@ const Banner = () => {
                 once: false, amount
                   : 0.7
               }}
-              className='mb-8 max-w-lg mx-auto lg:mx-0 '>
+              className='mb-8 max-w-lg mx-auto lg:mx-0 text-black'>
               I am a passionate web development student, constantly seeking to expand my knowledge in this field. I find the dynamic nature of web development fascinating and enjoy discovering new possibilities.
             </motion.p>
             <motion.div
@@ -85,15 +85,15 @@ const Banner = () => {
                   : 0.7
               }}
               className='flex text-[20px] gap-x-5 max-w-max mx-auto lg:mx-0'>
-              <a href='https://github.com/hplar05'>
-                <FaGithub />
-              </a>
-              <a href='https://www.facebook.com/nasus.main.16'>
-                <FaFacebook />
-              </a>
-              <a href='#'>
-                <FaYoutube />
-              </a>
+       <a href='https://github.com/hplar05'>
+      <FaGithub className="text-black" />
+    </a>
+    <a href='https://www.facebook.com/nasus.main.16'>
+      <FaFacebook className="text-black" />
+    </a>
+    <a href='#'>
+      <FaYoutube className="text-black" />
+    </a>
             </motion.div>
           </div>
           {/* Modified image */}

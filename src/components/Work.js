@@ -24,7 +24,7 @@ const Work = () => {
               My Latest <br />
               Work.
             </h2>
-            <p className='max-w-sm mb-5'>
+            <p className='max-w-sm mb-5 text-black'>
             I have immersed myself in web and mobile app development, working on various projects to enhance my skills and expertise. Here's a brief overview of my notable works in creating web and mobile apps.
             </p>
             <a href="https://github.com/hplar05/">
