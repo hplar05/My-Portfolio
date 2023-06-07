@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import Work from './components/Work';
 import Contact from './components/Contact';
+import Cursor from './components/Cursor';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -18,6 +19,7 @@ const App = () => {
 
   return (
     <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
+      <Cursor/>
       {loading ? (
         // Loading screen
         <div className='flex items-center justify-center h-screen'>
