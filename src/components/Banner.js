@@ -58,7 +58,7 @@ const Banner = () => {
                 once: false, amount
                   : 0.7
               }}
-              className='mb-8 max-w-lg mx-auto lg:mx-0 text-black'>
+              className='mb-8 max-w-lg mx-auto lg:mx-0 text-black text-[20px] lg:text-[20px]'>
               I am a passionate BSIT student, constantly seeking to expand my knowledge in this field. I find the dynamic nature of mobile and web development  fascinating and enjoy discovering new possibilities.
             </motion.p>
             <motion.div
