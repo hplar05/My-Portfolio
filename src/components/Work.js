@@ -24,10 +24,10 @@ const Work = () => {
               My Latest <br />
               Work.
             </h2>
-            <p className='max-w-sm mb-5 text-black'>
+            <p className='max-w-sm mb-5 text-black text-[20px] lg:text-[20px]'>
             Here's a brief overview of my notable works in creating web and mobile apps.
             </p>
-            <a href="https://github.com/hplar05/">
+            <a href="https://github.com/hplar05?tab=repositories">
               <button className='btn btn-sm'>View all project</button> </a>
           </div>
 
@@ -41,7 +41,7 @@ const Work = () => {
               </span>
             </div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-white'>THE GYM STREET COACH</span>
+              <span className='text-3xl  text-accent'>THE GYM STREET COACH</span>
             </div>
           </div>
         </div>
@@ -65,7 +65,7 @@ const Work = () => {
               </span>
             </div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-white'>SEABEAWARDS</span>
+              <span className='text-3xl text-accent'>SEABEAWARDS</span>
 
             </div>
 
@@ -80,7 +80,7 @@ const Work = () => {
               </span>
             </div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-white'>PPSLAWARDS</span>
+              <span className='text-3xl text-accent'>PPSLAWARDS</span>
 
             </div>
 
