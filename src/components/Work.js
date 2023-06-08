@@ -32,17 +32,17 @@ const Work = () => {
               <button className='btn btn-sm'>View all project</button> </a>
           </div>
 
-          <div className='group relative overflow-hidden border-2 border-black/60 rounded-xl cursor-pointer'>
+          <div className='group relative overflow-hidden border-2 border-black/60 rounded-xl'>
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
 
             <img className='group-hover:scale-125 transition-all duration-500' src={Img1} alt="" />
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
               <span className=''>
-                Flutter Project
+                Flutter and Android Studio
               </span>
             </div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl  text-accent'>THE GYM STREET COACH</span>
+              <span className='text-3xl  text-accent'>THE GYM STREET COACH PROJECT</span>
             </div>
           </div>
         </div>
@@ -56,7 +56,7 @@ const Work = () => {
               : 0.3
           }}
           className='flex-1 flex flex-col gap-y-10'>
-          <div className='group relative overflow-hidden border-2 border-black/60 rounded-xl cursor-pointer'>
+          <div className='group relative overflow-hidden border-2 border-black/60 rounded-xl'>
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
 
             <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt="" />
@@ -71,17 +71,17 @@ const Work = () => {
             </div>
 
           </div>
-          <div className='group relative overflow-hidden border-2 border-black/60 rounded-xl cursor-pointer'>
+          <div className='group relative overflow-hidden border-2 border-black/60 rounded-xl'>
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
 
             <img className='group-hover:scale-125 transition-all duration-500' src={Img3} alt="" />
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
               <span className=''>
-                Html, Css, and Javascript Project
+                Html, Css, and Javascript
               </span>
             </div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-accent'>SEABEAWARDS</span>
+              <span className='text-3xl text-accent'>SEABEAWARDS PROJECT</span>
 
             </div>
 
