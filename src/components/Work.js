@@ -42,7 +42,7 @@ const Work = () => {
               </span>
             </div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl  text-accent'>THE GYM STREET COACH PROJECT</span>
+              <span className='text-3xl  text-accent'>THE GYM STREET COACH</span>
             </div>
           </div>
         </div>
