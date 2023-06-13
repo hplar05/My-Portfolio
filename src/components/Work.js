@@ -7,9 +7,9 @@ import Img2 from '../assets/img2.png'
 import Img3 from '../assets/img3.png'
 
 const Work = () => {
-  return <section className='section' id='work'>
+  return <section className='section ' id='work'>
     <div className="container mx-auto ">
-    <br/>
+      <br />
       <div className='flex flex-col lg:flex-row gap-x-5 '>
         <div
           variants={fadeIn('right', 0.5)}
@@ -26,7 +26,7 @@ const Work = () => {
               Work.
             </h2>
             <p className='max-w-sm mb-5 text-black text-[20px] lg:text-[20px]'>
-            Here's a brief overview of my notable works in creating web and mobile apps.
+              Here's a brief overview of my latest works in web and mobile apps.
             </p>
             <a href="https://github.com/hplar05?tab=repositories">
               <button className='btn btn-sm'>View all project</button> </a>
@@ -37,12 +37,12 @@ const Work = () => {
 
             <img className='group-hover:scale-125 transition-all duration-500' src={Img1} alt="" />
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-              <span className=''>
+              <span className='leading-none'>
                 Flutter and Android Studio
               </span>
             </div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl  text-accent'>THE GYM STREET COACH</span>
+              <span className='text-3xl  text-accent leading-none'>THE GYM STREET COACH</span>
             </div>
           </div>
         </div>
@@ -61,12 +61,12 @@ const Work = () => {
 
             <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt="" />
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-              <span className=''>
+              <span className='leading-none'>
                 React Js and Tailwind CSS
               </span>
             </div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-accent'>PORTFOLIO PROJECT</span>
+              <span className='text-3xl text-accent leading-none'>PORTFOLIO PROJECT</span>
 
             </div>
 
@@ -76,12 +76,12 @@ const Work = () => {
 
             <img className='group-hover:scale-125 transition-all duration-500' src={Img3} alt="" />
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-              <span className=''>
+              <span className='leading-none'>
                 Html, Css, and Javascript
               </span>
             </div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-accent'>SEABEAWARDS PROJECT</span>
+              <span className='text-3xl text-accent leading-none'>SEABEAWARDS PROJECT</span>
 
             </div>
 
