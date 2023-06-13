@@ -18,11 +18,11 @@ const Contact = () => {
           console.log(error.text);
       });
   };
-  return (<section className='py-16 lg:selection min-h-[90vh] lg:min-h-[95vh] flex items-center' id='contact'>
+  return (<section className='py-16 lg:selection min-h-[90vh] lg:min-h-[105vh] flex items-center' id='contact'>
     <div className="container mx-auto">
       <div className='flex flex-col lg:flex-row'>
 
-        <div className='text-black flex-1'>
+        <div className='text-black flex-1 flex justify-start'>
           <div>
             <h4 className='text-xl uppercase text-accent font-medium mb-2 tracking-wide'>
               Get in touch
