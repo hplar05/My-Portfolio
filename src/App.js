@@ -39,7 +39,7 @@ const App = () => {
           <Nav />
           <Work />
           <Contact />
-          <div className='h-[90px]'></div>
+          <div className='h-[1000px]'></div>
         </>
       )}
     </div>
