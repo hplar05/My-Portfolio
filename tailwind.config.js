@@ -1,4 +1,6 @@
 module.exports = {
+  mode: "jit",
+  darkmode:'class',
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
@@ -21,11 +23,6 @@ module.exports = {
       colors: {
         primary: '#0a0a0a',
         accent: '#FF8400',
-      },
-      backgroundImage: {
-        site: "url('./assets/site-bg.jpg')",
-        about: "url('./assets/about.png')",
-        services: "url('./assets/services.png')",
       },
     },
   },

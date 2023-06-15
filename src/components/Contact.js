@@ -27,16 +27,16 @@ const Contact = () => {
             <h4 className='text-xl uppercase text-accent font-medium mb-2 tracking-wide'>
               Get in touch
             </h4>
-            <h2 className='text-[45px] lg:text-[90px] leading-none mb-12'>
+            <h2 className='text-[45px] lg:text-[90px] leading-none mb-12 dark:text-white'>
               Contact Me <br /> anytime!</h2>
           </div>
         </div>
 
-        <form  ref={form} onSubmit={sendEmail} className='text-black flex-1 border border-black rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start'>
-          <input className='bg-trasparent border-b border-black py-3 outline-none w-full placeholder:text-black focus:border-accent transition-all user_name' name="user_name" type="text" placeholder='Your name' required />
-          <input className='bg-trasparent border-b border-black py-3 outline-none w-full placeholder:text-black focus:border-accent transition-all email' name="user_name" type="email" placeholder='Your email' required />
-          <textarea className='bg-trasparent border-b border-black py-3 outline-none w-full placeholder:text-black focus:border-accent transition-all resize-none mb-12 message' name="message"  placeholder='Your Message' required></textarea>
-          <input className='btn btn-lg text-center' type="submit" value="Send Message"/>
+        <form  ref={form} onSubmit={sendEmail} className='text-black dark:border-white flex-1 border border-black rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start'>
+          <input className='bg-trasparent dark:bg-gray border-b border-black dark:border-white py-3 outline-none w-full placeholder:text-black focus:border-accent transition-all user_name' name="user_name" type="text" placeholder='Your name' required />
+          <input className='bg-trasparent border-b border-black dark:border-white py-3 outline-none w-full placeholder:text-black focus:border-accent transition-all email' name="user_name" type="email" placeholder='Your email' required />
+          <textarea className='bg-trasparent border-b border-black dark:border-white py-3 outline-none w-full placeholder:text-black focus:border-accent transition-all resize-none mb-12 message' name="message"  placeholder='Your Message' required></textarea>
+          <input className='btn btn-lg text-center dark:text-black' type="submit" value="Send Message"/>
         </form>
       </div>
     </div>
