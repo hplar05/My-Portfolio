@@ -20,7 +20,7 @@ const App = () => {
 
   return (
     <div className='bg-white dark:bg-gray-900 overflow-hidden'>
-      <Cursor/>
+      <Cursor />
       {loading ? (
         // Loading screen
         <div className='flex items-center justify-center h-screen'>
@@ -35,7 +35,12 @@ const App = () => {
       ) : (
         // Content after loading
         <>
-          <Header />
+          <div className='flex flex-auto justify-between'>
+            <Header />
+            <div className='flex'>
+              <DarkMode />
+            </div>
+          </div>
           <Banner />
           <Nav />
           <Work />
