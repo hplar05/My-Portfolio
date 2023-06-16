@@ -8,6 +8,8 @@ import Work from './components/Work';
 import Contact from './components/Contact';
 import Cursor from './components/Cursor';
 import DarkMode from './components/DarkMode/DarkMode';
+//import "./App.css";
+
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -19,7 +21,8 @@ const App = () => {
   }, []);
 
   return (
-    <div className='bg-white dark:bg-gray-900 overflow-hidden'>
+    <div className='bg-white dark:bg-gray-900 overflow-hidden' //class="App-header"
+    >
       <Cursor />
       {loading ? (
         // Loading screen

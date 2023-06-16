@@ -33,10 +33,10 @@ const Contact = () => {
         </div>
 
         <form  ref={form} onSubmit={sendEmail} className='text-black dark:border-white flex-1 border border-black rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start'>
-          <input className='bg-trasparent dark:bg-gray border-b border-black dark:border-white py-3 outline-none w-full placeholder:text-black focus:border-accent transition-all user_name' name="user_name" type="text" placeholder='Your name' required />
-          <input className='bg-trasparent border-b border-black dark:border-white py-3 outline-none w-full placeholder:text-black focus:border-accent transition-all email' name="user_name" type="email" placeholder='Your email' required />
-          <textarea className='bg-trasparent border-b border-black dark:border-white py-3 outline-none w-full placeholder:text-black focus:border-accent transition-all resize-none mb-12 message' name="message"  placeholder='Your Message' required></textarea>
-          <input className='btn btn-lg text-center dark:text-black' type="submit" value="Send Message"/>
+          <input className='bg-trasparent rounded-xl dark:bg-gray border-b border-black dark:border-white py-3 outline-none w-full placeholder:text-black focus:border-accent transition-all user_name' name="user_name" type="text" placeholder=' Your name' required />
+          <input className='bg-trasparent rounded-xl border-b border-black dark:border-white py-3 outline-none w-full placeholder:text-black focus:border-accent transition-all email' name="user_name" type="email" placeholder=' Your email' required />
+          <textarea className='bg-trasparent border-b rounded-xl border-black dark:border-white py-3 outline-none w-full placeholder:text-black focus:border-accent transition-all resize-none mb-12 message' name="message"  placeholder=' Your Message' required></textarea>
+          <input className='btn btn-lg text-center dark:text-white' type="submit" value="Send Message"/>
         </form>
       </div>
     </div>

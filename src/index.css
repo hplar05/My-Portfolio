@@ -2,7 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --body_background: white;
+  --body_color: black;
+  --link_color: navy;
+}
 
+[data-theme="dark"] {
+  --body_background: #212121;
+  --body_color: white;
+  --link_color: cyan;
+}
 
 .btn {
   background: linear-gradient(

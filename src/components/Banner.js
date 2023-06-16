@@ -70,7 +70,7 @@ const Banner = () => {
                   : 0.7
               }}
               className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-              <button className='btn btn-lg'><span className='dark:text-black'>Contact me</span></button>
+              <button className='btn btn-lg'><span className='dark:text-white'>Contact me</span></button>
               <a href='#' className='text-gradient btn-link'>
                 My Portfolio
               </a>

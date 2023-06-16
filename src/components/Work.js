@@ -5,6 +5,7 @@ import { fadeIn } from '../variants';
 import Img1 from '../assets/img1.png'
 import Img2 from '../assets/img2.png'
 import Img3 from '../assets/img3.png'
+import "../App.css";
 
 const Work = () => {
   return <section className='section ' id='work'>
@@ -29,7 +30,7 @@ const Work = () => {
               Here's a brief overview of my latest works in web and mobile apps.
             </p>
             <a href="https://github.com/hplar05?tab=repositories">
-              <button className='btn btn-sm'><span className='dark:text-black'>View all project</span></button> </a>
+              <button className='btn btn-sm'><span className='dark:text-white'>View all project</span></button> </a>
           </div>
 
           <div className='group relative overflow-hidden border-2 border-black/60 dark:border-white/60 rounded-xl'>
