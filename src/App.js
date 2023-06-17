@@ -8,7 +8,7 @@ import Work from './components/Work';
 import Contact from './components/Contact';
 import Cursor from './components/Cursor';
 import DarkMode from './components/DarkMode/DarkMode';
-//import "./App.css";
+import "./App.css";
 
 
 const App = () => {
