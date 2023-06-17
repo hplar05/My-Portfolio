@@ -6,3 +6,8 @@
 .App-link {
   color: var(--link_color);
 }
+
+.Border {
+  border-color: var(--border-color);
+}
+
