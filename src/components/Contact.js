@@ -37,7 +37,7 @@ const Contact = () => {
               <h4 className="text-xl uppercase text-accent font-medium mb-2 tracking-wide">
                 Get in touch
               </h4>
-              <h2 className="text-[45px] lg:text-[90px] leading-none mb-12 dark:text-white">
+              <h2 className="text-[45px] lg:text-[90px] leading-none mb-12 dark:text-white App-link">
                 Contact Me <br /> anytime!
               </h2>
             </div>
@@ -47,24 +47,24 @@ const Contact = () => {
             <form
               ref={form}
               onSubmit={sendEmail}
-              className="text-black dark:border-white flex-1 border border-black rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start"
+              className="text-black dark:border-white flex-1 border border-black rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start Border"
             >
               <input
-                className="bg-trasparent rounded-xl dark:bg-gray border-b border-black dark:border-white py-3 outline-none w-full placeholder:text-black focus:border-accent transition-all user_name"
+                className="bg-trasparent rounded-xl dark:bg-gray border-b border-black dark:border-white py-3 outline-none w-full placeholder:text-black focus:border-accent transition-all user_name Border"
                 name="user_name"
                 type="text"
                 placeholder="Your name"
                 required
               />
               <input
-                className="bg-trasparent rounded-xl border-b border-black dark:border-white py-3 outline-none w-full placeholder:text-black focus:border-accent transition-all email"
+                className="bg-trasparent rounded-xl border-b border-black dark:border-white py-3 outline-none w-full placeholder:text-black focus:border-accent transition-all email Border"
                 name="user_name"
                 type="email"
                 placeholder="Your email"
                 required
               />
               <textarea
-                className="bg-trasparent border-b rounded-xl border-black dark:border-white py-3 outline-none w-full placeholder:text-black focus:border-accent transition-all resize-none mb-12 message"
+                className="bg-trasparent border-b rounded-xl border-black dark:border-white py-3 outline-none w-full placeholder:text-black focus:border-accent transition-all resize-none mb-12 message Border"
                 name="message"
                 placeholder="Your Message"
                 required
@@ -74,9 +74,9 @@ const Contact = () => {
           )}
 
           {showSuccessMessage && (
-            <div className="text-black dark:border-white dark:text-white flex-1 border border-green-500 rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start">
+            <div className="text-black dark:border-white dark:text-white flex-1 border border-green-500 rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start Border">
               <h3 className="text-green-500 text-[30px] font-medium mb-2">Success!</h3>
-              <p className='text-[25px] text-black dark:text-white'>Your message has been successfully sent.</p>
+              <p className='text-[25px] text-black dark:text-white App-link'>Your message has been successfully sent.</p>
             </div>
           )}
         </div>

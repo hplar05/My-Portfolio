@@ -3,15 +3,17 @@
 @tailwind utilities;
 
 :root {
-  --body_background: white;
+  --body_background: rgb(255, 255, 255);
   --body_color: black;
-  --link_color: navy;
+  --link_color: black;
+  --border-color: rgb(129, 121, 121);
 }
 
 [data-theme="dark"] {
-  --body_background: #212121;
+  --body_background: rgb(17 24 39);
   --body_color: white;
-  --link_color: cyan;
+  --link_color: white;
+  --border-color: rgb(206, 192, 192);
 }
 
 .btn {

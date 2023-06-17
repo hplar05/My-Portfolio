@@ -21,7 +21,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className='bg-white dark:bg-gray-900 overflow-hidden' //class="App-header"
+    <div className='bg-white dark:bg-gray-900 overflow-hidden' class="App-header"
     >
       <Cursor />
       {loading ? (

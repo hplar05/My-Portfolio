@@ -20,7 +20,7 @@ const Banner = () => {
                 once: false, amount
                   : 0.7
               }}
-              className='text-[57px] font-bold leading-[0.8] lg:text-[100px] text-black dark:text-white'>
+              className=' App-link text-[57px] font-bold leading-[0.8] lg:text-[100px] text-black dark:text-white'>
               Ralph <span>Saladino</span>
             </motion.h1>
             <motion.div
@@ -32,7 +32,7 @@ const Banner = () => {
                   : 0.7
               }}
               className='mb-6 text-[33px] lg:text-[50px] font-secondary font-semibold uppercase leading-[1]'>
-              <span className='text-black mr-4  dark:text-white'>I am a</span>
+              <span className='text-black mr-4  dark:text-white App-link'>I am a</span>
               <TypeAnimation
                 sequence={[
                   'Web Developer',
@@ -58,7 +58,7 @@ const Banner = () => {
                 once: false, amount
                   : 0.7
               }}
-              className='mb-8 max-w-lg mx-auto lg:mx-0 text-black  dark:text-white text-[20px] lg:text-[20px]'>
+              className='mb-8 max-w-lg mx-auto lg:mx-0 text-black  dark:text-white text-[20px] lg:text-[20px] App-link'>
               I am a passionate BSIT student, constantly seeking to expand my knowledge in this field. I find the dynamic nature of mobile and web development  fascinating and enjoy discovering new possibilities.
             </motion.p>
             <motion.div
@@ -86,13 +86,13 @@ const Banner = () => {
               }}
               className='flex text-[20px] gap-x-5 max-w-max mx-auto lg:mx-0'>
               <a href='https://github.com/hplar05'>
-                <FaGithub className="text-black  dark:text-white" />
+                <FaGithub className="text-black  dark:text-white App-link" />
               </a>
               <a href='https://www.facebook.com/nasus.main.16'>
-                <FaFacebook className="text-black  dark:text-white" />
+                <FaFacebook className="text-black  dark:text-white App-link" />
               </a>
               <a href='#'>
-                <FaYoutube className="text-black  dark:text-white" />
+                <FaYoutube className="text-black  dark:text-white App-link" />
               </a>
             </motion.div>
           </div>

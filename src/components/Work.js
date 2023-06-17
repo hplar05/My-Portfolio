@@ -26,14 +26,14 @@ const Work = () => {
               My Latest <br />
               Work.
             </h2>
-            <p className='max-w-sm mb-5 text-black dark:text-white text-[20px] lg:text-[20px]'>
+            <p className='max-w-sm mb-5 text-black dark:text-white text-[20px] lg:text-[20px] App-link'>
               Here's a brief overview of my latest works in web and mobile apps.
             </p>
             <a href="https://github.com/hplar05?tab=repositories">
               <button className='btn btn-sm'><span className='dark:text-white'>View all project</span></button> </a>
           </div>
 
-          <div className='group relative overflow-hidden border-2 border-black/60 dark:border-white/60 rounded-xl'>
+          <div className='group relative overflow-hidden border-2 border-black/60 dark:border-white/60 rounded-xl Border'>
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
 
             <img className='group-hover:scale-125 transition-all duration-500' src={Img1} alt="" />
@@ -57,7 +57,7 @@ const Work = () => {
               : 0.3
           }}
           className='flex-1 flex flex-col gap-y-10'>
-          <div className='group relative overflow-hidden border-2 border-black/60 dark:border-white/60 rounded-xl'>
+          <div className='group relative overflow-hidden border-2 border-black/60 dark:border-white/60 rounded-xl Border'>
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
 
             <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt="" />
@@ -72,7 +72,7 @@ const Work = () => {
             </div>
 
           </div>
-          <div className='group relative overflow-hidden border-2 border-black/60 dark:border-white/60 rounded-xl'>
+          <div className='group relative overflow-hidden border-2 border-black/60 dark:border-white/60 rounded-xl Border'>
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
 
             <img className='group-hover:scale-125 transition-all duration-500' src={Img3} alt="" />
