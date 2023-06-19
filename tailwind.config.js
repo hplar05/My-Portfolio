@@ -1,6 +1,5 @@
 module.exports = {
   mode: "jit",
-  darkmode:'class',
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
