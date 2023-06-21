@@ -43,7 +43,7 @@ const Work = () => {
               </span>
             </div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl  text-accent leading-none'>THE GYM STREET COACH</span>
+              <span className='text-3xl  text-accent leading-none'>GYM STREET COACH</span>
             </div>
           </div>
         </div>
@@ -63,11 +63,11 @@ const Work = () => {
             <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt="" />
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
               <span className='leading-none'>
-                React Js and Tailwind CSS
+                C# Window Form
               </span>
             </div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-accent leading-none'>PORTFOLIO PROJECT</span>
+              <span className='text-3xl text-accent leading-none'>ATTENDANCE SYSTEM</span>
 
             </div>
 
@@ -82,7 +82,7 @@ const Work = () => {
               </span>
             </div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-accent leading-none'>SEABEAWARDS PROJECT</span>
+              <span className='text-3xl text-accent leading-none'>SEABEAWARDS</span>
 
             </div>
 
