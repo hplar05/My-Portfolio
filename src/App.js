@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { PacmanLoader } from 'react-spinners/';
+import {ClimbingBoxLoader} from 'react-spinners/';
 // components
 import Banner from './components/Banner';
 import Header from './components/Header';
@@ -17,7 +17,7 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 8000);
+    }, 5000);
   }, []);
 
   return (
@@ -27,7 +27,7 @@ const App = () => {
       {loading ? (
         // Loading screen
         <div className='flex items-center justify-center h-screen'>
-          <PacmanLoader
+          <ClimbingBoxLoader
             color='#FF8400' // Set the desired color
             loading={loading}
             size={50}
