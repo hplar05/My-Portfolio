@@ -29,7 +29,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-16 lg:selection min-h-[90vh] lg:min-h-[100vh] flex items-center" id="contact">
+    <section className="py-16 lg:selection min-h-[90vh] lg:min-h-[105vh] flex items-center" id="contact">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
           <div className="text-black flex-1 flex justify-start">
