@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import {ClimbingBoxLoader} from 'react-spinners/';
+import {PacmanLoader} from 'react-spinners/';
 // components
 import Banner from './components/Banner';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import Work from './components/Work';
+import About from './components/About'
 import Contact from './components/Contact';
 import Cursor from './components/Cursor';
 import DarkMode from './components/DarkMode/DarkMode';
@@ -27,11 +28,11 @@ const App = () => {
       {loading ? (
         // Loading screen
         <div className='flex items-center justify-center h-screen'>
-          <ClimbingBoxLoader
-            color='#FF8400' // Set the desired color
+          <PacmanLoader
+            color='#000000' // Set the desired color
             loading={loading}
             size={50}
-            aria-label='Loading Spinner'
+            aria-label='Pacman Loader'
             data-testid='loader'
           />
         </div>
@@ -46,6 +47,7 @@ const App = () => {
           </div>
           <Banner />
           <Nav />
+          <About />
           <Work />
           <Contact />
           <div className='h-[1000px]'></div>

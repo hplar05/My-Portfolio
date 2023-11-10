@@ -12,7 +12,7 @@ const Banner = () => {
         <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
           {/* Your text */}
           <div className='flex-1 text-center font-secondary lg:text-left'>
-            <motion.h1
+            <h1
               variants={fadeIn('up', 0.3)}
               initial="hidden"
               whileInView={'show'}
@@ -22,8 +22,8 @@ const Banner = () => {
               }}
               className=' App-link text-[57px] font-bold leading-[0.8] lg:text-[100px] text-black dark:text-white'>
               Ralph <span>Saladino</span>
-            </motion.h1>
-            <motion.div
+            </h1>
+            <div
               variants={fadeIn('up', 0.3)}
               initial="hidden"
               whileInView={'show'}
@@ -49,8 +49,8 @@ const Banner = () => {
                 wrapper='span'
                 repeat={Infinity}
               />
-            </motion.div>
-            <motion.p
+            </div>
+            <p
               variants={fadeIn('up', 0.3)}
               initial="hidden"
               whileInView={'show'}
@@ -60,8 +60,8 @@ const Banner = () => {
               }}
               className='mb-8 max-w-lg mx-auto lg:mx-0 text-black  dark:text-white text-[20px] lg:text-[20px] App-link'>
               I am a passionate BSIT student, constantly seeking to expand my knowledge in this field. I find the dynamic nature of mobile and web development  fascinating and enjoy discovering new possibilities.
-            </motion.p>
-            <motion.div
+            </p>
+            <div
               variants={fadeIn('up', 0.3)}
               initial="hidden"
               whileInView={'show'}
@@ -74,9 +74,9 @@ const Banner = () => {
               <a href='#' className='text-gradient btn-link'>
                 My Portfolio
               </a>
-            </motion.div>
+            </div>
             { }
-            <motion.div
+            <div
               variants={fadeIn('up', 0.3)}
               initial="hidden"
               whileInView={'show'}
@@ -94,13 +94,14 @@ const Banner = () => {
               <a href='#'>
                 <FaYoutube className="text-black  dark:text-white App-link" />
               </a>
-            </motion.div>
+            </div>
           </div>
           {/* Modified image */}
-          <motion.div
+          <div
             variants={fadeIn('down', 0.3)}
             initial="hidden"
             whileInView={'show'}
+            autoFocus={'false'}
             className='hidden lg:flex  lg:max-w-[500px] lg:max-h-[600px]'>
             <img
               src={Image}
@@ -108,7 +109,7 @@ const Banner = () => {
               className=''
               width='500px'
             />
-          </motion.div>
+          </div>
 
 
 

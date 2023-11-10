@@ -22,7 +22,7 @@ const Work = () => {
           }}
           className='flex-1 flex flex-col gap-y-20 mb-10 lg:mb-0'>
           <div>
-            <h2 className='h2 leading-tight text-accent'>
+            <h2 className='h2 leading-tight text-black dark:text-white'>
               My Latest <br />
               Work.
             </h2>

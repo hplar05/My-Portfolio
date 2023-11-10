@@ -20,13 +20,13 @@ const Nav = () => {
             <BiHomeAlt2 />
           </Link>
 
-       {/*    <Link to='about'
+           <Link to='about'
             activeClass='active'
             smooth={true}
             spy={true}
             className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
             <BiUser />
-          </Link> */}
+          </Link> 
 
           <Link to='work'
             activeClass='active'
